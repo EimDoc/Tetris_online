@@ -1,5 +1,23 @@
-h1 {
-    background: #D9FFAD; /* Цвет фона под заголовком */
-    color: green; /* Цвет текста */
-    padding: 2px; /* Поля вокруг текста */
-   }
+.container {
+    margin: 0 auto;
+    max-width: 900px;
+    min-height: 100%;
+    border: 1px solid $background-sat;
+}
+
+.nav-bar{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    width: 100%;
+}
+
+.menu {
+    list-style-type: none;
+    padding-left: none;
+    margin-left: 0;
+}
+
+.menu li {
+    display: inline;
+}
