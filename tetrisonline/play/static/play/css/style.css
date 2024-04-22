@@ -1,23 +1,39 @@
-.container {
-    margin: 0 auto;
-    max-width: 900px;
-    min-height: 100%;
-    border: 1px solid $background-sat;
+body {
+    background-color: #BE5504;
 }
 
-.nav-bar{
+.nav-bar {
     display: flex;
-    padding: 10px;
     justify-content: center;
-    width: 100%;
+    background-color: rgb(0, 0, 0);
 }
 
-.menu {
-    list-style-type: none;
-    padding-left: none;
-    margin-left: 0;
+ul .menu-ul {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
 }
 
-.menu li {
-    display: inline;
+.menu-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    text-decoration: none;
+}
+
+li {
+    display: inline-block;
+    margin-right: 35px;
+    height: 15px;
+}
+
+a::after, a{
+    color: white;
+}
+
+.showcase {
+    height: 500px;
+    background-color: black;
+    color: white;
+    display: block;
+    align-items: center;
 }
