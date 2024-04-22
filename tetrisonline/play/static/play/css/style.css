@@ -1,0 +1,39 @@
+body {
+    background-color: #BE5504;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+}
+
+ul .menu-ul {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+.menu-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    text-decoration: none;
+}
+
+li {
+    display: inline-block;
+    margin-right: 35px;
+    height: 15px;
+}
+
+a::after, a{
+    color: white;
+}
+
+.showcase {
+    height: 500px;
+    background-color: black;
+    color: white;
+    display: block;
+    align-items: center;
+}
