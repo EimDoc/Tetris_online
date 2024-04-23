@@ -18,16 +18,38 @@ ul .menu-ul {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 32px;
     text-decoration: none;
+    color: white;
+    /* border-color: #BE5504; */
+}
+
+.menu-text:link {
+    text-decoration: none;
+    color: white;
+    outline: none;
+}
+
+.menu-text:visited {
+    text-decoration: none;
+    color: white;
+    outline: none;
+}
+
+.menu-text:focus {
+
+}
+
+.menu-text:hover {
+
+}
+
+.menu-text:active {
+
 }
 
 li {
     display: inline-block;
     margin-right: 35px;
     height: 15px;
-}
-
-a::after, a{
-    color: white;
 }
 
 .showcase {
